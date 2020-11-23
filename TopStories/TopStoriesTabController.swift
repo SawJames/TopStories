@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TopStoriesTabController.swift
 //  TopStories
 //
 //  Created by saw Tarmalar on 23/11/2020.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TopStoriesTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .yellow
     }
+    
 
 
 }
-
